@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>OurApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+    <script defer src="https://use.fontawesome.com/releases/v5.5.0/js/all.js" integrity="sha384-GqVMZRt5Gn7tB9D9q7ONtcp4gtHIUEW/yG7h98J7IpE3kpi+srfFyyB/04OV6pG0" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet" />
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <header class="top-header">
+      <div class="container-fluid">
+        <nav class="nav">
+          <div class="menu-toggle">
+            <i class="uil uil-bars"></i>
+            <i class="uil uil-times"></i>
+          </div>
+          <a href="index.php" class="logo">
+            <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6be9604d5a3d4c1f0ed1c4_poppy-logo.svg" alt="" width="50" />
+            <h2>OurApp</h2>
+          </a>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Contact</a>
+            </li>
+          </ul>
+          <div class="top-header-right">
+            <a href="/register-page" class="btn button-primary large">Sign In</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero_content">
+          <div class="d-flex">
+            <span class="welcome-line"></span>
+            <h4>Welcome</h4>
+          </div>
+          <h1>The simple, affordable cremation choice<span class="span-color-primary-1 light">.</span></h1>
+          <p>Poppy provides a modern solution in the form of direct cremation. With transparent pricing and a straightforward process, Poppy is here to serve your family when you need us.</p>
+        </div>
+
+        <a href="/register" class="scroll-icon-link">
+          <div class="icon-scroll">
+            <span class="scroll-dot"></span>
+          </div>
+        </a>
+      </div>
+    </section>
+    <!-- Hero -->
+
+    <section class="home_gray">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section_title text-center">
+              <h2>When will you need Poppy?</h2>
+              <p>Click to select the timing for our services.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <a href="basic-contact.php" class="home_gray_card">
+              <div class="home_card_m">
+                <img src="images/5f778621cd59b4fe3a00e6ef_services future.png" alt="" />
+                <p><strong>Now</strong></p>
+                <p>Someone recently passed away.</p>
+                <div class="btn home-btn">Get Started <i class="uil uil-arrow-right"></i></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col">
+            <a href="#home_gray" class="home_gray_card">
+              <div class="home_card_m model_button">
+                <img src="images/5f77862163b7828a6055edbe_servicesnow.png" alt="" />
+                <p><strong>In the Future</strong></p>
+                <p>I am planning for a loved one who may pass soon.</p>
+                <div class="btn home-btn">
+                  Get Started
+                  <i class="uil uil-arrow-right"></i>
+                </div>
+              </div>
+            </a>
+            <!--Services model-->
+            <div class="services_modal">
+              <div class="services_modal-content">
+                <i class="uil uil-times services_modal-close"></i>
+
+                <div class="contact-us-card popup_card">
+                  <div class="block-text-contact">
+                    <div class="d-flex">
+                      <span class="welcome-line"></span>
+                      <h4>get in touch</h4>
+                    </div>
+                    <h3>Pre-arrange today</h3>
+                    <p>If you believe a loved-one may pass soon, leave your information or call us, and we can arrange everything before your time of need.</p>
+                    <br />
+                    <p>Pre-arranging can help reduce the burden of filling out paperwork in a time of grief, and you won't be charged until you need our services.</p>
+                  </div>
+                  <div class="form">
+                    <form id="form-Contact-Us" name="" data-name="">
+                      <ul class="container_grid popup_grid">
+                        <li>
+                          <label for="First" class="field-label">First Name</label>
+                          <input type="text" class="input" maxlength="256" name="First" data-name="First" placeholder="First" id="First" required="" />
+                        </li>
+                        <li>
+                          <label for="Last" class="field-label">Last Name</label>
+                          <input type="text" class="input" maxlength="256" name="Last" data-name="Last" placeholder="Last" id="Last" required="" />
+                        </li>
+                        <li>
+                          <label for="Email-3" class="field-label">Email</label>
+                          <input type="text" class="input" maxlength="256" name="Email-3" data-name="Email 3" placeholder="Email" id="Email-3" required="" />
+                        </li>
+                        <li>
+                          <label for="Phone-Number" class="field-label">Phone</label>
+                          <input type="text" class="input" maxlength="256" name="Phone-Number" data-name="Phone Number" placeholder="(541) 754-3010" id="Phone-Number" required="" />
+                        </li>
+                      </ul>
+                      <input type="submit" value="submit message" data-wait="Please wait..." class="button-primary" />
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6a8d2532ee9483c9eb8b10_bouquet%203%202%20(Traced).svg" alt="" class="bouquet-bottom-right light" />
+      <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6a8d2532ee9483c9eb8b10_bouquet%203%202%20(Traced).svg" alt="" class="bouquet-top-left light" />
+    </section>
+    <!-- Home Gary Card -->
+
+    <section class="home_banner">
+      <div class="container">
+        <div class="row">
+          <div class="home_cta_banner">
+            <div class="cta_banner_content">
+              <div class="d-flex">
+                <span class="welcome-line"></span>
+                <h4>Welcome</h4>
+              </div>
+              <h2>Transparent pricing, for everyone.</h2>
+              <p>No custom quotes, no misleading extras or add-ons. We include everything you'll need, from transportation to cremation, and delivery of your loved one's ashes back to you.</p>
+              <a href="#" class="btn button-primary">See Pricing</a>
+            </div>
+            <div class="cta_banner_bg">
+              <img src="images/5f6cb98a48bcf55c67aa302c_5f6a8154ab435569106ad819_creamation-online.jpg" alt="" />
+            </div>
+            <img src="images/5f6a835e6028c3042579f1b0_deckle-edge.jpg" alt="" class="cta_after_bg" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Banner -->
+
+    <section class="testimonial">
+      <div class="container">
+        <div class="section_title">
+          <h3>
+            We make it easy
+            <span class="span-color-primary-1">.</span>
+          </h3>
+          <p>We prioritize quality of service over everything. No pushy sales calls, just helpful answers when you're ready.</p>
+        </div>
+
+        <div class="testimonial_wrapper">
+          <div class="testimonial_content">
+            <img src="images/testimonials/5fd8187884ec5e48dfd48453_AT.jpeg" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+          <div class="testimonial_content">
+            <img src="images/testimonials/5f6cc5de185d1053cab90ecf_Mary_testimonial.jpg" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+          <div class="testimonial_content">
+            <img src="images/testimonials/5f6cc5dd4b50100a34974e18_steve_testimonial2.jpg" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+        </div>
+
+        <div class="testimonial_wrapper">
+          <div class="testimonial_content">
+            <img src="images/testimonials/5f7a1ef18772ed632253c597_Screen Shot 2020-10-04 at 1.13.28 PM.png" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+          <div class="testimonial_content">
+            <img src="images/testimonials/5f7a1f7f81d0105737834b2b_Screen Shot 2020-10-04 at 1.15.39 PM.png" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+          <div class="testimonial_content">
+            <img src="images/testimonials/5f7a1fb18772ed6c6b53cb55_Screen Shot 2020-10-04 at 1.16.45 PM.png" alt="" />
+            <p>"They made everything so easy"</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+
+    <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="about_cta_banner">
+            <img src="images/5f6a8ac28ee75603331e9323_shutterstock_696084358 1.jpg" alt="" />
+            <div class="about_banner_content">
+              <div class="d-flex">
+                <span class="welcome-line"></span>
+                <h4>ABOUT POPPY</h4>
+              </div>
+              <h2>Flexibility to choose how and where to celebrate a life <span class="span-color-primary-1">.</span></h2>
+              <p>Direct cremation with Poppy means you can hold a memorial on your terms, when loved ones can gather safely, and say goodbye together.</p>
+              <a href="#" class="btn button-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6a8d2532ee9483c9eb8b10_bouquet%203%202%20(Traced).svg" alt="" class="bouquet-bottom-right" />
+      <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6a8d2532ee9483c9eb8b10_bouquet%203%202%20(Traced).svg" alt="" class="bouquet-top-left" />
+    </section>
+    <!-- Home Banner -->
+
+    <section class="cremation_inner_section">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section_title">
+              <h2>Cremation doesn't have to be complicated<span class="span-color-primary-1">.</span></h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="process-wrap">
+            <div class="block_wrap">
+              <div class="block">
+                <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cfe91d0fbe4fed1e69d7e_5f6147bc1c75e44414a6c3f8_icon-services-01-care-template.svg" alt="" />
+              </div>
+              <div class="content_wrap">
+                <h3>Step 1.</h3>
+                <p>Select the service and time of need through our website, or by phone. No funeral home visits and no sales pitch required.</p>
+              </div>
+            </div>
+            <div class="block_wrap">
+              <div class="block">
+                <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cfe915bca5a20068955cf_5f6147bc1c75e4f879a6c3f6_icon-services-02-care-template.svg" alt="" />
+              </div>
+              <div class="content_wrap">
+                <h3>Step 2.</h3>
+                <p>We pick up your loved one, either at a hospital, residence, or other place of passing.</p>
+              </div>
+            </div>
+            <div class="block_wrap">
+              <div class="block">
+                <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cfe9178419d1aee7920de_5f6147bc1c75e45a80a6c3fa_icon-services-05-care-template.svg" alt="" />
+              </div>
+              <div class="content_wrap">
+                <h3>Step 3.</h3>
+                <p>After cremation, we transport your loved one's ashes by Priority mail, quickly and safely.</p>
+              </div>
+            </div>
+            <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f73674036fc0b7f9680aa8c_trail-top.svg" data-w-id="27a3138e-50e3-a646-7ba5-b63d5d935802" alt="" class="trail-top" />
+            <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f73673f8aa9573f0d71e5d9_trail-bottom.svg" data-w-id="ecf9be56-4fbb-a244-827e-d7ccb187671e" alt="" class="trail-bottom" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Creamation -->
+
+    <section class="cta_parallax">
+      <div class="container">
+        <div class="row">
+          <div class="section_title">
+            <h2>Find out why more people are choosing Poppy.</h2>
+            <a href="#" class="btn button-primary">Get Started</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Banner -->
+
+    <section class="about_customer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <aside class="content-wrap-left">
+              <div class="sticky-sidebar">
+                <div class="section_title">
+                  <h2>
+                    What our customers say about us
+                    <span class="span-color-primary-1">.</span>
+                  </h2>
+                  <p>When you need help, we'll be there for you too.</p>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-7">
+            <div class="content-wrap-right">
+              <div class="card_base-2">
+                <p>Getting to spread my mom’s ashes at the pond next to our farm was the perfect way to put her to rest. I didn’t want to go back and forth to a funeral parlor. No one really enjoys thinking about this aspect of the end of life, but you made it painless. Thank you.</p>
+
+                <div class="author_content">
+                  <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cc5de185d1053cab90ecf_Mary_testimonial.jpg" alt="" width="38" />
+                  <h1>Maryann G.<span> | Golden, Colorado</span><br /></h1>
+                </div>
+              </div>
+              <div class="card_base-2">
+                <p>I was visiting family in Maine, and my father was back home in Colorado. Hearing he passed was not easy, and he didn’t have any plans for how he wanted his memorial, besides being cremated. Poppy was the only provider I found who made things clear and straightforward.</p>
+                <div class="author_content">
+                  <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cc5de185d1053cab90ecf_Mary_testimonial.jpg" alt="" width="38" />
+                  <h1>Steve H.<span> | Denver, Colorado</span><br /></h1>
+                </div>
+              </div>
+              <div class="card_base-2">
+                <p>I was visiting family in Maine, and my father was back home in Colorado. Hearing he passed was not easy, and he didn’t have any plans for how he wanted his memorial, besides being cremated. Poppy was the only provider I found who made things clear and straightforward.</p>
+                <div class="author_content">
+                  <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cc5de185d1053cab90ecf_Mary_testimonial.jpg" alt="" width="38" />
+                  <h1>Steve H.<span> | Denver, Colorado</span><br /></h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home Banner -->
+
+    <div class="container">
+      <div class="divider-border"></div>
+    </div>
+    <!-- Divider border -->
+
+    <section class="home_banner-3">
+      <div class="container">
+        <div class="row">
+          <div class="section_title">
+            <h2>Purchase your cremation package with Poppy.</h2>
+            <p>Checkout online, or over the phone.</p>
+            <a href="#" class="btn button-primary">Learn More</a>
+          </div>
+          <img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f6cb37af24ea8bdc22e1a5d_leaves.svg" alt="" class="banner_bg_element" />
+        </div>
+      </div>
+    </section>
+    <!-- Home Banner -->
+
+    <section class="accordion">
+      <div class="container">
+        <div class="section_title">
+          <h2>
+            We are here to answer your questions
+            <span class="span-color-primary-1">.</span>
+          </h2>
+          <p>When it comes to end-of-life arrangements, no question is off limits. If you don't find what you're looking for here, we'll be happy to answer your question over email or phone.</p>
+        </div>
+        <div class="accordion_container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">What exactly is direct cremation?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">Do I need to purchase an urn?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">How long does it take?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">Do I need to purchase a casket?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">What preparations are necessary before the cremation?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="accordion_content accordion_close">
+                <div class="accordion_header">
+                  <h2 class="accordion-header">Do all faiths support cremation?</h2>
+
+                  <i class="uil uil-plus accordion_arrow"></i>
+                </div>
+                <div class="accordion_data">
+                  <p>Direct or immediate cremation is the simplest form of cremation, meaning it usually takes place without viewing of the body, visitation, embalming, or many of the traditional and more expensive aspects of ceremonial funerals</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--accordion-->
+
+    <section class="hero_v2">
+      <div class="container">
+        <div class="hero_v2_content">
+          <div class="d-flex">
+            <span class="welcome-line"></span>
+            <h4>Donations</h4>
+          </div>
+          <h2>We can think about the future, while remembering the past.</h2>
+          <p>For every loved one we help put to rest, Poppy makes a donation with The Nature Conservancy to support reforestation and wildlife preservation in Colorado’s Northern Rockies.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Home Banner -->
+
+    <!-- footer begins -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-column">
+            <h4>Cities We Serve</h4>
+            <div class="grid-2-columns">
+              <ul role="list" class="footer-nav">
+                <li>
+                  <a href="get-started.php">Arvada</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Aurora</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Boulder</a>
+                </li>
+                <li><a href="get-started.php">Broomfield</a></li>
+                <li><a href="get-started.php">Colorado&nbsp;Springs</a></li>
+              </ul>
+              <ul role="list" class="footer-nav">
+                <li>
+                  <a href="get-started.php">Denver Metro</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Fort Collins</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Littleton</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Longmont</a>
+                </li>
+                <li>
+                  <a href="get-started.php">Westminster</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h4>Quick Links</h4>
+            <ul role="list" class="footer-nav">
+              <li><a href="get-started.php">Get Started</a></li>
+              <li><a href="/pricing-3">Pricing</a></li>
+              <li><a href="/faq">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Legal</h4>
+            <ul role="list" class="footer-nav">
+              <li><a href="privacy-policy.php">Privacy Policy</a></li>
+              <li><a href="terms-and-conditions.php">Terms of Use</a></li>
+              <li><a href="your-right.php">Your Rights</a></li>
+              <li><a href="pricinglist.php">General Price List</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h4>Contact</h4>
+            <ul role="list" class="footer-nav">
+              <li class="d-flex">
+                <i class="uil uil-envelope"></i>
+                <a href="mailto:support@care.com">support@poppycremation.com</a>
+              </li>
+              <li class="d-flex">
+                <i class="uil uil-phone"></i>
+                <a href="tel:(780)540-2101">(720) 712 - 4737</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="divider footer"></div>
+
+        <div class="footer-bottom">
+          <div class="footer-split-section">
+            <a href="index.php" class="brand-2"
+              ><img src="https://assets-global.website-files.com/5f6147bccdfd345d7053123d/5f73cbf4fcce786570cd14b6_poppy-logomark.svg" alt="" class="poppy" width="50" />
+              <div class="logo-text lower">Poppy</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+      $('[data-toggle="tooltip"]').tooltip()
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+npm init -y
+npm install express
+npm install ejs
+npm install nodemon
+npm install validator
+npm install mongodb
+npm install dotenv
+npm i bcryptjs -- hashing password
+npm install express-session
+npm install connect-mongo
+npm install connect-flash
+
+npm install md5
+npm install marked
+npm install sanitize-html
+npm install webpack webpack-cli @babel/core @babel/preset-env babel-loader // For Search
+npm install axios
+npm i dompurify
+npm i socket.io
+
+npm i csurf
+
+npm install jsonwebtoken
+npm i cors
+
+npm run watch
+
+
+
